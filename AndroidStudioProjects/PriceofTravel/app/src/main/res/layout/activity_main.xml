@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:hint="@string/distancia"
-        android:inputType="number"
+        android:inputType="numberDecimal"
         />
 
     <TextView
@@ -79,7 +79,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:background="@color/lightGreen"
-        android:padding="50dp"
+        android:padding="20dp"
         android:text="@string/calcular"
         android:textColor="@color/white"
         android:textSize="20sp"
