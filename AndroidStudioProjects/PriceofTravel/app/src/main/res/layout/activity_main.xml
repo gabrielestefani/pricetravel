@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="24dp"
+    android:background="@color/backgroundColor"
     tools:context=".MainActivity">
 
     <EditText
@@ -13,7 +14,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:hint="@string/distancia"
+        android:hint="Distance"
         android:inputType="numberDecimal"
         />
 
@@ -21,7 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="@string/totaldekm" />
+        android:text="Total in kilometers" />
 
     <EditText
         android:id="@+id/editPrice"
@@ -29,15 +30,15 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
         android:inputType="numberDecimal"
-        android:hint="@string/preco" />
+        android:hint="Price" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="numberDecimal"
         android:layout_gravity="center"
-        android:hint="Autonomia"
-        android:text="@string/precoporlitro" />
+        android:hint="Autonomy"
+        android:text="Price per liter" />
 
     <EditText
         android:id="@+id/editAutonomy"
@@ -51,7 +52,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="@string/kms_por_litro" />
+        android:text="KMs per liter" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -69,7 +70,7 @@
         android:textSize="30sp"
         android:layout_marginTop="12dp"
         android:layout_height="wrap_content"
-        android:textColor="@color/darkBlue"
+        android:textColor="@color/black"
         android:layout_gravity="center"
         android:text="@string/valor_total_rs" />
 
@@ -80,7 +81,7 @@
         android:layout_marginTop="16dp"
         android:background="@color/lightGreen"
         android:padding="20dp"
-        android:text="@string/calcular"
+        android:text="CALCULATE"
         android:textColor="@color/white"
         android:textSize="20sp"
         />
